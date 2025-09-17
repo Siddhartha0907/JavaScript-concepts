@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector</title>
+</head>
+<body>
+    <!-- <style>
+        .red-color{
+            color: red;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+    </style> -->
+    <nav class="web">
+        <p>This a Web Browser of HTML.</p>
+    </nav>
+
+    <div class="web">
+        <p class="paragraph">Welcome to the website.</p>
+        <h4 onclick="alert('Heyyyy')" id="name-block">Here is the Code of JS from <span id="username">Siddu</span></h4>
+        <pre><code>console.log("Hello There")</code></pre>
+    </div>
+    <div>
+        <div>
+            <h3>This is div2</h3>
+        </div>
+    </div>
+
+    <div id="my-container"></div>
+
+    <!-- <button onclick="handleClickButton()">Click Me</button> -->
+    <button id="clickButton">Click Me</button>
+    <!-- <script>
+
+        // const elements = document.getElementsByClassName('web')
+        // console.log(elements)
+        // for(let i=0; i<elements.length; i++){
+        //     elements.item(i).style.background = 'red'
+        //     elements.item(i).style.textDecoration = 'underline'
+        // }
+
+        // const el = document.getElementsByClassName('paragraph')
+        // for(let i=0; i<el.length; i++){
+        //     el.item(i).remove()
+        // }
+
+        // function handleClickButton(){
+        //     console.log("Heyyy I am Clicked")
+        //     alert('Helllo')
+        // }
+        // const el = document.getElementById("clickButton")
+        // const nameBlock = document.getElementById("name-block")
+        // el.addEventListener("click", () => {
+        //     if(nameBlock.style.color == "red"){
+        //         nameBlock.style.color = "blue"
+        //     }
+        //     else{
+        //         nameBlock.style.color = "red"
+        //     }
+        // })
+        // el.onclick = () => {
+        //     console.log("Hello it is clicked")
+        // }
+        // function doClickEvent() {
+        //     console.log("Hello it is working")
+        // }
+        // el.addEventListener("click", doClickEvent)
+        // el.addEventListener('click',() => {
+        //     console.log("It is clicked")
+        // })
+        //console.log(document.querySelector("body").children)
+        // const allChildren = document.querySelector("body").children
+
+        // for(let i=0;i<allChildren.length;i++){
+        //     allChildren.item(i).addEventListener("click", () => {
+        //         allChildren.item(i).remove()
+        //     })
+        // }
+
+        const button = document.getElementById('clickButton')
+        const container = document.getElementById('my-container')
+
+        let count = 1
+
+        button.addEventListener('click',() => {
+            //const el = document.createElement('h1')
+            //const el = document.createElement('li')
+            //el.innerText = "This heading is created dynamically."
+            //container.innerHTML = el
+            //container.innerHTML = "<h1>This heading is created dynamically.</h1>"
+            el.innerText = count
+            //count++
+            container.appendChild(el)
+            count++
+        })
+    </script> -->
+</body>
+</html>
