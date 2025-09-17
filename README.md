@@ -1,2 +1,2 @@
 # JavaScript-concepts
-JavaScirpt related concepts are available
+JavaScript related concepts are available
